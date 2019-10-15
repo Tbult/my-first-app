@@ -5,14 +5,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component'; // voeg hier de import van je component toe (typescript)
+import { ServersComponent } from './servers/servers.component';
+import { TestcomponentComponent } from './testcomponent/testcomponent.component'; // voeg hier de import van je component toe (typescript)
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent // voeg hier je component toe
+    ServersComponent,
+    TestcomponentComponent // voeg hier je component toe
   ],
   imports: [
     BrowserModule

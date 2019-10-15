@@ -6,12 +6,12 @@ import { Component } from '@angular/core';
   // selector: app-servers -- by class
   templateUrl: './app.component.html',
   // style moet een array zijn, kan een external file zijn of inline code
-  // styleUrls: ['./app.component.css'],
-  styles: [`
-    h3 {
-      color: dodgerblue; 
-    }
-  `] 
+  styleUrls: ['./app.component.css'],
+  // styles: [`
+  //   h3 {
+  //     color: dodgerblue; 
+  //   }
+  // `] 
 })
 export class AppComponent {
   // name = 'Tonke';
