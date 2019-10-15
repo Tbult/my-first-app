@@ -6,7 +6,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
-import { TestcomponentComponent } from './testcomponent/testcomponent.component'; // voeg hier de import van je component toe (typescript)
+import { TestcomponentComponent } from './testcomponent/testcomponent.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { SuccesAlertComponent } from './succes-alert/succes-alert.component'; // voeg hier de import van je component toe (typescript)
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { TestcomponentComponent } from './testcomponent/testcomponent.component'
     AppComponent,
     ServerComponent,
     ServersComponent,
-    TestcomponentComponent // voeg hier je component toe
+    TestcomponentComponent,
+    WarningAlertComponent,
+    SuccesAlertComponent // voeg hier je component toe
   ],
   imports: [
     BrowserModule
